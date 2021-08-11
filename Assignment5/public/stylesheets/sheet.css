@@ -1,0 +1,35 @@
+body {
+    padding-top: 100px;
+    font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #db44ba;
+}
+
+.area-part{
+    padding-left: 60px;
+}
+
+.photo {
+    width: 20rem;
+    
+    margin-left: 160px;
+}
+
+#copyright {
+    background-color: rgba(24, 24, 24, 0.2);
+}
+#annie{
+    color:#fff;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+#sms{
+    color:#fff;
+    height: 10rem;
+}
+#house {
+    margin-top: 80px;
+}

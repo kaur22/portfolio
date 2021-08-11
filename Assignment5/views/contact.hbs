@@ -1,0 +1,78 @@
+
+<!-- Contact area-->
+<section class="page-section" >
+  <div class="container "  id="contact">
+    <h2 class="page-section-heading text-center mb-0">Connect With Annie</h2><hr>
+     <div class="row">
+      <div class="col-md-6 ">
+        <!--heading of  Contact area-->
+        <h3 class="page-section-heading text-center mb-0">Contact Me</h3><br>
+        <!--form of contact area-->
+        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+          <!--input the Name -->
+          <div class="form-floating mb-3">
+              <input class="form-control" id="name" type="text" placeholder="Enter your name..." required />
+              <label for="name">Full name</label>
+              <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+          </div>
+          <!-- input area of Email address-->
+          <div class="form-floating mb-3">
+              <input class="form-control" id="email" type="email" placeholder="name@example.com" required />
+              <label for="email">Email address</label>
+              <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+          </div>
+          <!-- area for Message input-->
+          <div class="form-floating mb-3">
+              <textarea class="form-control" id="sms" type="text" placeholder="Enter your message here..." required></textarea>
+              <label for="message">Message</label>
+              <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+          </div>
+          <!--show Submit success message-->
+          <div class="d-none" id="submitSuccessMessage">
+              <div class="text-center mb-3">
+                  <div class="fw-bolder">Form submission successful!</div>
+                  <br>
+              </div>
+          </div>
+          <!-- this will show Submit error message-->
+          <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+          <!-- this is  Submit Button-->
+          <button class="btn btn-secondary my-2 my-sm-0" id="submitButton" type="submit">Send Your Query</button>
+        </form>
+      </div>          
+      <div class="col-md-6" >
+        <div class="address-section">
+          <h2 class="page-section-heading text-center mb-0">Accessible At</h2><br>
+            <div class="row">
+              <div class="col-sm-3">
+                <img src="/images/map2.png" class="icon" >
+              </div>
+              <div class="col-sm-6">
+                <h5>Address</h5>
+                <p> 29 Eden Field, Brampton, Ontario    L6R0N1, Canada</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-3">
+                <img src="/images/phone2.png" class="icon" >
+              </div>
+              <div class="col-sm-6">
+                <h5>Phone</h5>
+                <p>+1 226-606-0944 </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-3">
+                <img src="/images/mail2.png" class="icon" >
+              </div>
+              <div class="col-sm-6">
+                <h5>Mail me</h5>
+                <p>kaurannie2222@gmail.com</p>
+              </div>
+            </div>
+        </div>
+      </div>
+      </div>
+  
+  </div><br><br><br>
+</section>
