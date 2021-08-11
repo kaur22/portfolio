@@ -31,5 +31,6 @@ a {
     height: 10rem;
 }
 #house {
+    text-decoration-color: black;
     margin-top: 80px;
 }
